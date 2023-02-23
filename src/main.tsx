@@ -6,6 +6,9 @@ import { ApolloProvider } from '@apollo/client/react'
 // COMPONENT
 import { App } from './App'
 
+// STYLE
+import './styles/global.css'
+
 // LIB
 import { client } from './lib/apollo'
 
