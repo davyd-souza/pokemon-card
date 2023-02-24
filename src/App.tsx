@@ -40,7 +40,8 @@ export function App() {
   }
 
   const handleShortcut = (key: globalThis.KeyboardEvent) => {
-    if (key.ctrlKey && key.code === 'IntlRo') {
+    console.log(key.code)
+    if (key.ctrlKey && key.code === 'KeyC') {
       inputRef.current?.handleToggleVisible()
     }
   }
